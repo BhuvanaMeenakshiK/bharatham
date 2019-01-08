@@ -8,24 +8,62 @@ body{
 }
 .danceschool{
 	width: 100%;
-	height:100px;
+	height:180px;
 background-color: #2a110a;
                                           
 }
 .logo{
 	float: left;
 	margin-left: 25px;
-	margin-top: 20px;
+	margin-top: 40px;
 }
 .learn p{
 	float: left;
 	margin-left: 10px;
-	margin-top: 20px;
+	margin-top: 40px;
 	color: #ffffff;
     font-family: 'Great Vibes', cursive;
 	font-size: 50px;
 	
 }
+.dropbtn {
+	background-color:  #2a110a;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+	float: right;
+	margin-right: 50px;
+	margin-top: 35px;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: burlywood;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 100;
+  }
+  
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:#2a110a;
+color: white;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #2a110a;}
  .best ul li{
 	
 	list-style-type: none;
@@ -306,6 +344,16 @@ height:600px;
     line-height: 30px;
     float: left;
     margin-left: 40px;
+}
+.event5 a{
+	text-decoration: none;
+    margin-top: 20px;
+    color: #F89406;
+    font-family: 'Playfair Display', serif;
+   text-align: center;
+    line-height: 30px;
+    float: left;
+    margin-left: 20px;
 }
 #contact{
 width:100%;
